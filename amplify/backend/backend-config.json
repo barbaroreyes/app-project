@@ -1,0 +1,16 @@
+{
+  "auth": {
+    "appproject2dc829a4": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
+  "storage": {
+    "s3479b7439": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
+    }
+  }
+}
