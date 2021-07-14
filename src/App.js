@@ -1,7 +1,12 @@
+import React,{useState,useEffect} from 'react'
 import {Switch,Route} from 'react-router-dom'
 import Home from './pages/Home'
 import Header from './components/Header'
+import Amplify from 'aws-amplify'
+import config from './aws-exports'
 import './App.css';
+
+Amplify.configure(config)
 
 function App() {
   return (
